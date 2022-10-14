@@ -41,5 +41,8 @@ if __name__ == '__main__':
     # Start Flask
     port = os.environ.get('PORT', 5000)
 
-    app.run(host='127.0.0.1',
+    #app.run(host='127.0.0.1',
+    #        port=port)
+
+    app.run(host='0.0.0.0',
             port=port)
